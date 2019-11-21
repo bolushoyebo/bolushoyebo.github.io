@@ -1,0 +1,187 @@
+body{
+   font-family: sans-serif;
+   margin: 0px; 
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.topnav {
+    background-color: #cf1515;
+    border: 100px 200px 100px 200px;
+    margin: 0px 0px 60px 0px;
+    padding: 20px 100px 20px 100px;  
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 70px;
+    float: left;
+
+}
+
+.navlist {
+    list-style: none;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.li {
+    display: inline-block;
+    text-decoration: none;
+    border-right: 2px solid white;
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 10px 0px 0px;
+}
+.li:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.navlink {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.navpic {
+    margin: 0px;
+    padding: 0px;
+}
+
+.imagelinks{
+    text-align: right;
+    margin: 0px 20px 100px 20px;
+    padding: 0px;
+
+}
+
+.imagelinks:hover{
+    animation: bounce 1s; 
+}
+
+.divimage1{
+    position: absolute;
+    left: 20px;
+    z-index: 0;
+}
+
+section{
+    margin: 20px 50px 20px 50px;
+}
+
+.aac {
+    margin: 100px 0px 0px 50px;
+    padding: 0px 0px 0px 50px;
+}
+}
+.aacimage {
+    float: center;
+}
+
+.aacimage:hover{
+    animation: bounce 1s;
+}
+
+.aacstory{
+    border: 2px solid rgb(122, 112, 112);
+    padding: 5px 10px;
+    margin: 0px 200px 0px 50px;
+    box-shadow: 2px 2px rgb(141, 137, 137);
+    border-radius: 5px;
+    width: 700px;
+}
+.aacstory1{
+    font-size: 20px;
+    margin: 2px 50px 0px 50px;
+
+}
+
+.aaclink:hover, .yahayalink:hover{
+    color: rgb(145, 34, 34)
+}
+
+.yahaya{
+    border-top: 5px solid rgb(126, 120, 120);
+    float: left;
+    margin: 20px 50px 20px 50px;
+    padding: 0px;
+    width: 500px;
+}
+
+.yahayalink, .aaclink{
+    text-decoration: none;
+    color: rgb(39, 37, 37);
+    font-size: 30px;
+
+}
+
+.image{
+    float: left;
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+.image:hover {
+    animation: bounce 1s;
+}
+
+.yahayalink2 {
+    color: rgb(51, 50, 50);
+    margin-top: 0px 200px 0px 20px;
+    padding: 0px 200px 0px 20px;
+    text-align: right;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(56, 54, 54);
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    
+  }
+
+  #footerlist {
+      display: table;
+      font-size: 10px;
+      text-align: center;
+  }
+
+.home, .About, .Social {
+    float: left;
+    display: table;
+    text-align: center;
+    margin: 0px 50px 0px 50px
+}
+
+
+h1{
+    margin: 70px 20px 20px 20px;
+    text-align: left;
+}
+
+.footerimage{
+    float: left;
+}
